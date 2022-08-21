@@ -70,7 +70,7 @@
       "options": {
         "commands": [
           {
-            "command": "npm gh-pages-d dist/apps/github-pages"
+            "command": "npm gh-pages -d dist/apps/github-pages"
           }
         ]
       }
