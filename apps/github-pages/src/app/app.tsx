@@ -1,53 +1,55 @@
 import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
+import { SamMain } from '@madelk/sam/main';
+
 const StyledApp = styled.div`
   // Your style here
+  padding: 0;
+  margin: 0;
+  border: 1px solid gray;
+`;
+const StyledNavigation = styled.ul`
+  list-style: none;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 1em;
+`;
+const StyledHr = styled.hr`
+  margin: 0;
+`;
+const StyledNavigationItem = styled.li`
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
 `;
 
 export function App() {
   return (
     <StyledApp>
-      {/* <NxWelcome title="myapp" /> */}
-
-      {/* START: routes */}
-      {/* These routes and navigation have been generated for you */}
-      {/* Feel free to move and update them to fit your needs */}
-      <br />
-      <hr />
-      <br />
       <div role="navigation">
-        <ul>
-          <li>
+        <StyledNavigation>
+          <StyledNavigationItem>
             <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/page-2">Page 2</Link>
-          </li>
-        </ul>
+          </StyledNavigationItem>
+          <StyledNavigationItem>
+            <Link to="/sam">Sam</Link>
+          </StyledNavigationItem>
+        </StyledNavigation>
       </div>
+      <StyledHr />
       <Routes>
+        <Route path="/sam" element={<SamMain />} />
         <Route
-          path="/"
+          path="*"
           element={
             <div>
-              This is the generated root route.{' '}
-              <Link to="/page-2">Click here for page 2.</Link>
-            </div>
-          }
-        />
-        <Route
-          path="/page-2"
-          element={
-            <div>
-              <Link to="/">Click here to go back to root page.</Link>
+              You won't find anything here
             </div>
           }
         />
       </Routes>
-      {/* END: routes */}
     </StyledApp>
   );
 }
