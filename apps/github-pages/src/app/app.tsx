@@ -41,14 +41,7 @@ export function App() {
       <StyledHr />
       <Routes>
         <Route path="/sam" element={<SamMain />} />
-        <Route
-          path="*"
-          element={
-            <div>
-              You won't find anything here
-            </div>
-          }
-        />
+        <Route path="*" element={<div>You won't find anything here</div>} />
       </Routes>
     </StyledApp>
   );
