@@ -70,7 +70,7 @@
       "options": {
         "commands": [
           {
-            "command": "npx gh-pages -d dist/apps/github-pages"
+            "command": "npx gh-pages -d dist/apps/github-pages -u 'github-actions-bot <support+actions@github.com>'"
           }
         ]
       }
