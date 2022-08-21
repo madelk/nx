@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "components-roulette": "libs/components/roulette",
     "github-pages": "apps/github-pages",
     "github-pages-e2e": "apps/github-pages-e2e",
     "sam-main": "libs/sam/main"

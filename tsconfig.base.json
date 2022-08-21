@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@madelk/components/roulette": ["libs/components/roulette/src/index.ts"],
       "@madelk/sam/main": ["libs/sam/main/src/index.ts"]
     }
   },
