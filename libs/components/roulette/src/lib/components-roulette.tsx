@@ -54,9 +54,12 @@ const data = [
   { option: 'Dick' },
   { option: 'Viewer Choice' },
   { option: 'Chie' },
-  { option: 'Tiddy' },
   { option: 'Vector Man' },
-  { option: 'Sam choice', style: { backgroundColor: '#FF44AA' } },
+  { option: 'Tiddy' },
+  {
+    option: 'Sam choice',
+    style: { backgroundColor: '#FF44AA', textColor: 'black' },
+  },
 ];
 export function ComponentsRoulette(props: ComponentsRouletteProps) {
   const [mustSpin, setMustSpin] = useState(false);
