@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: nrwl/nx-set-shas@v2
-      - run: npm ci -- --force
+      - run: npm ci --force
       - run: npx nx affected --target=build --parallel=3
       - run: npx nx affected --target=deploy --parallel=3
     env:
