@@ -69,9 +69,8 @@
       "executor": "nx:run-commands",
       "options": {
         "commands": [
-          {
-            "command": "npx gh-pages -d dist/apps/github-pages -u 'github-actions-bot <support+actions@github.com>'"
-          }
+          "git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git",
+          "npx gh-pages -d dist/apps/github-pages -u 'github-actions-bot <support+actions@github.com>'"
         ]
       }
     },
