@@ -54,6 +54,7 @@ const data = [
   { option: 'Dick' },
   { option: 'Viewer Choice' },
   { option: 'Chie' },
+  { option: 'Tiddy' },
   { option: 'Vector Man' },
   { option: 'Sam choice', style: { backgroundColor: '#FF44AA' } },
 ];
