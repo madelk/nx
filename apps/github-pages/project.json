@@ -13,7 +13,7 @@
         "compiler": "babel",
         "outputPath": "dist/apps/github-pages",
         "index": "apps/github-pages/src/index.html",
-        "baseHref": "/",
+        "baseHref": "/nx/",
         "main": "apps/github-pages/src/main.tsx",
         "polyfills": "apps/github-pages/src/polyfills.ts",
         "tsConfig": "apps/github-pages/tsconfig.app.json",
