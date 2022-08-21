@@ -5,7 +5,9 @@
   "targets": {
     "build": {
       "executor": "@nrwl/web:webpack",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
@@ -63,16 +65,32 @@
         }
       }
     },
+    "deploy": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "npm gh-pages-d dist/apps/github-pages"
+          }
+        ]
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/github-pages/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "apps/github-pages/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/github-pages"],
+      "outputs": [
+        "coverage/apps/github-pages"
+      ],
       "options": {
         "jestConfig": "apps/github-pages/jest.config.ts",
         "passWithNoTests": true
