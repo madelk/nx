@@ -52,10 +52,15 @@ const StyledButtonText = styled.div`
 
 const data = [
   { option: 'Dick' },
+  { option: 'Princess' },
   { option: 'Viewer Choice' },
-  { option: 'Chie' },
+  { option: 'Princess' },
+  { option: 'Kirby' },
+  { option: 'Princess' },
   { option: 'Vector Man' },
+  { option: 'Princess' },
   { option: 'Tiddy' },
+  { option: 'Princess' },
   {
     option: 'Sam choice',
     style: { backgroundColor: '#FF44AA', textColor: 'black' },
