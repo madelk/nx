@@ -57,7 +57,7 @@ const data = [
   { option: 'Princess' },
   { option: 'Kirby' },
   { option: 'Princess' },
-  { option: 'Vector Man' },
+  { option: 'Phallic phallacies' },
   { option: 'Princess' },
   { option: 'Tiddy' },
   { option: 'Princess' },
