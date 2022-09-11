@@ -56,6 +56,8 @@ const data = [
   { option: 'Viewer Choice' },
   { option: 'Enterprise' },
   { option: 'Kirk' },
+  { option: 'Riker`s Beard' },
+  { option: 'Gerodi`s Visor' },
   { option: 'Borg' },
   { option: 'Phallic phallacies' },
   { option: 'Star Trek logo' },
