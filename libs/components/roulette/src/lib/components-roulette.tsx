@@ -52,15 +52,15 @@ const StyledButtonText = styled.div`
 
 const data = [
   { option: 'Dick' },
-  { option: 'Princess' },
+  { option: 'Klingon' },
   { option: 'Viewer Choice' },
-  { option: 'Princess' },
-  { option: 'Kirby' },
-  { option: 'Princess' },
+  { option: 'Enterprise' },
+  { option: 'Kirk' },
+  { option: 'Borg' },
   { option: 'Phallic phallacies' },
-  { option: 'Princess' },
+  { option: 'Star Trek logo' },
   { option: 'Tiddy' },
-  { option: 'Princess' },
+  { option: 'Picard' },
   {
     option: 'Sam choice',
     style: { backgroundColor: '#FF44AA', textColor: 'black' },
