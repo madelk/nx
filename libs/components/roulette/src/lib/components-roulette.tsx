@@ -52,16 +52,17 @@ const StyledButtonText = styled.div`
 
 const data = [
   { option: 'Dick' },
-  { option: 'Klingon' },
+  { option: 'Random Animal' },
   { option: 'Viewer Choice' },
   { option: 'Enterprise' },
-  { option: 'Kirk' },
+  { option: 'Spock Ear' },
   { option: 'Riker`s Beard' },
   { option: 'Gerodi`s Visor' },
-  { option: 'Borg' },
+  { option: 'Soonami Sam' },
   { option: 'Phallic phallacies' },
   { option: 'Star Trek logo' },
   { option: 'Tiddy' },
+  { option: 'Part of the face goes green' },
   { option: 'Picard' },
   {
     option: 'Sam choice',
