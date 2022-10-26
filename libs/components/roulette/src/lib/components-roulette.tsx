@@ -54,24 +54,15 @@ const data = [
   { option: 'Dick' },
   { option: 'Random Animal' },
   { option: 'Viewer Choice' },
-  { option: 'Witch Hat' },
-  { option: 'Ghost' },
-  { option: 'Cobweb' },
-  { option: 'Black Cat' },
-  { option: 'Spoopy Tree' },
-  { option: 'Tombstone' },
-  { option: 'Coffin' },
-  { option: 'Eyeball' },
-  { option: 'Fangs' },
-  { option: 'Bat' },
-  { option: 'Pumpkin' },
-  { option: 'Couldron' },
-  { option: 'Soonami Sam' },
+  { option: 'Sam has to sing happy birthday to herself' },
+  { option: 'Party Hat' },
+  { option: 'Cupcake' },
+  { option: '“Birthday girl” written' },
+  { option: 'Birthday Gifts' },
   { option: 'Phallic phallacies' },
-  { option: 'Skull' },
+  { option: 'Birthday cake ' },
   { option: 'Tiddy' },
-  { option: 'Part of the face goes green' },
-  { option: 'Spider' },
+  { option: 'Baloons' },
   {
     option: 'Sam choice',
     style: { backgroundColor: '#FF44AA', textColor: 'black' },
@@ -96,8 +87,8 @@ export function ComponentsRoulette(props: ComponentsRouletteProps) {
     <StyledComponentsRoulette>
       <StyledWinner>Winner: {winner}</StyledWinner>
       <StyledWheel
-        backgroundColors={['orange', 'black']}
-        textColors={['black', 'red']}
+        backgroundColors={['red', 'blue']}
+        textColors={['blue', 'red']}
         mustStartSpinning={mustSpin}
         prizeNumber={prizeNumber}
         data={data}
